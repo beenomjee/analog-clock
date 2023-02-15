@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Analog Clock</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="center">
+      <div class="circle">
+        <div class="circle2">
+          <div class="circle3">
+            <div class="circle4">
+              <div class="circle5">
+                <div class="minute-bars">
+                  <div class="coverBg"></div>
+                </div>
+                <div class="hour-bars">
+                  <hr style="--rotate: 0deg" />
+                  <hr style="--rotate: 30deg" />
+                  <hr style="--rotate: 60deg" />
+                  <hr style="--rotate: 90deg" />
+                  <hr style="--rotate: 120deg" />
+                  <hr style="--rotate: 150deg" />
+                  <div class="coverBg"></div>
+                </div>
+                <div class="digits">
+                  <span style="--x: 0; --y: -80px">12</span>
+                  <span style="--x: 80px; --y: 0">3</span>
+                  <span style="--x: 0; --y: 80px">6</span>
+                  <span style="--x: -80px; --y: 0">9</span>
+                </div>
+                <div class="companyName"><span>quartz</span></div>
+                <div class="hourHand">
+                  <span style="--rotate: 180deg"></span>
+                </div>
+                <div class="minutesHand">
+                  <span style="--rotate: 180deg"></span>
+                </div>
+                <div class="secondHand">
+                  <span style="--rotate: 180deg"></span>
+                </div>
+                <div class="centerPoint"><span></span></div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="backgroundEffect"></div>
+      </div>
+    </div>
+
+    <script src="./main.js"></script>
+  </body>
+</html>
